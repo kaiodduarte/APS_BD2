@@ -4,6 +4,7 @@ public class Dado {
 
     private String nome;
     private char status;
+    private Queue<Transacao>;
 
     public Dado(String nomeDado) {
         this.status = 'U';
